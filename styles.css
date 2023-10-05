@@ -1,39 +1,61 @@
-.custom-navbar {
-    background-color: #3900B2;
+a,p,h1,h2,h3,h4,h5,h6,li,button,label,input {
+    font-family: 'Sarpanch', sans-serif;
 }
 
-.custom-navbar a {
-    color: #fff;
+h2 {
+    font-weight: bold;
 }
+
+.custom-navbar {
+    background-color: #3900B2;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.custom-navbar {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
 
 
 
 #main {
-    background-image: url("static/img/main.jpg");
+    background-image: url("static/img/main.png");
     background-size: 100% 100%;
-    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
-}
-
-#main img{
-
-
-    height: 100%;
-
 
 }
+
+
 
 #about {
     background-color: #1B1B1B;
     color: #fff;
     padding: 100px;
-    height: 100vh;
 }
 
 #about h2 {
     color: #FF4F4F;
+    font-weight: bold;
+    font-size: 70px;
+    padding: 40px 0;
+}
+
+#about h5 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+#about p {
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+
+    text-align: justify;
 }
 
 #about a {
@@ -43,19 +65,23 @@
 #games{
     background-color: #725BFF;
     padding: 100px;
-    height: 100vh;
 }
 
 #games h2{
     color: #3900B2;
+    font-weight: bold;
+    font-size: 70px;
 }
 
 #games .card{
     background-color: #1B1B1B;
     border: none;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 #games .card h5{
+    font-weight: bold;
     color: #FF4F4F;
     margin: 10 auto;
     display: block;
@@ -70,31 +96,104 @@
 #characters {
     background-color: #1B1B1B;
     padding: 100px;
-    height: 100vh;
 }
 
 #characters h2{
     color: #FF4F4F;
-    display: block;
-    margin: 0 auto;
+    font-weight: bold;
+    font-size: 70px;
+
 }
 
-#characters .carousel-image {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+.carousel-image {
+    width: 100%; /* Establece el ancho al 100% para que las imágenes se ajusten al contenedor */
+    height: auto; /* Esto garantiza que las imágenes se escalen proporcionalmente */
 }
+
+.carousel-caption {
+    background-color: rgba(27, 27, 27, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+#curiosities{
+    background-color: #725BFF;
+    padding: 5%;
+}
+
+#curiosities h2{
+    color: #3900B2;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#curiosities .card{
+    background-color: #3900B2;
+    border: 3px solid #fff;
+}
+
+
+#curiosities .card .card-body{
+    color: #fff;
+    background-color: #1B1B1B;
+}
+
+#curiosities .card button{
+    color: #fff;
+    padding: 0
+}
+
+#curiosities img {
+    width: 100%;
+    height: 100%;
+}
+
 
 #contact {
     background-image: url("static/img/contacto.png");
     padding: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
 #contact .row{
-    background-color: rgba(27,27,27,0.8);
+    background-color: rgba(27, 27, 27, 0.7);
     color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+    
 }
+
+#contact h2 {
+    color: #FF4F4F;
+    font-weight: bold;
+    font-size: 70px;
+}
+#contact label {
+    color: #FF4F4F;
+}
+
+
+
+#contact button {
+    background-color: #FF4F4F;
+    border: none;
+    color: #1B1B1B;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+}
+
+
+
+
 
 footer {
     background-color: #3900B2;

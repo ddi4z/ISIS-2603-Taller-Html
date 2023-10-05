@@ -4,48 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megaman Zero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarpanch&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  custom-navbar">
-        <a class="navbar-brand" href="#main">
-            <img src="static/img/logo.png" width="100" height="50" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about">Acerca de<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#games">Videojuegos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#characters">Personajes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#curiosities">Datos curiosos</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Conoce más</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-
-    <div class="container" id="main">
-
+  <nav class="navbar navbar-expand-lg navbar-dark  custom-navbar">
+    <a class="navbar-brand" href="#main">
+        <img src="static/img/logo.png" width="100" height="50" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">Acerca de<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#games">Videojuegos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#characters">Personajes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#curiosities">Datos curiosos</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Conoce más</a>
+        </li>
+      </ul>
     </div>
+</nav>
 
-    <div class="container" id="about">
+    <div class="container-fluid" id="main"></div>
+
+    <div class="container-fluid" id="about">
       <div class="row">
           <div class="col-lg-6 col-md-12">
               <h2>Acerca de</h2>
               <h5>¿Qué es Megaman zero?</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Mega Man Zero es una serie de videojuegos de acción desarrollada por Capcom, que se centra en el personaje Zero, un robot con conciencia propia, luchando contra las fuerzas del mal en un futuro distópico. Los juegos combinan acción rápida, plataformas y elementos de RPG, ofreciendo una historia emocionante y desafiante jugabilidad en un mundo postapocalíptico donde Zero lucha por la justicia y la supervivencia de los Reploids. Mega Man Zero ha sido elogiado por su jugabilidad desafiante y su narrativa profunda, convirtiéndose en una franquicia icónica en el mundo de los videojuegos.</p>
               <p>Descubre <a href="https://es.wikipedia.org/wiki/Mega_Man_Zero" target="_blank">más información.</a></p>
           </div>
           <div class="col-lg-6 col-md-12">
@@ -56,9 +57,9 @@
 
 
 
-    <div class="container" id="games">
+    <div class="container-fluid" id="games">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 text-center">
           <h2>Videojuegos</h2>
         </div>
       </div>
@@ -118,7 +119,7 @@
       </div>
     </div>
 
-    <div class="container" id="characters">
+    <div class="container-fluid" id="characters">
       <div class="row">
         <div class="col-12">
           <h2>Personajes</h2>
@@ -140,33 +141,33 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="static/img/harpuia.jpg" class="d-block carousel-image" alt="...">
+                <img src="static/img/harpuia.jpg" class="d-block carousel-image w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Harpuia</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="static/img/leviathan.jpg" class="d-block carousel-image" alt="...">
+                <img src="static/img/leviathan.jpg" class="d-block carousel-image w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Leviathan</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="static/img/fefnir.jpg" class="d-block carousel-image" alt="...">
+                <img src="static/img/fefnir.jpg" class="d-block carousel-image w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Fefnir</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="static/img/phantom.jpg" class="d-block carousel-image" alt="...">
+                <img src="static/img/phantom.jpg" class="d-block carousel-image w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Phantom</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="static/img/weil.jpeg" class="d-block carousel-image" alt="...">
+                <img src="static/img/villanos.jpg" class="d-block carousel-image w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Weil</h5>
+                  <h5>Villanos</h5>
                 </div>
               </div>
             </div>
@@ -183,33 +184,112 @@
 
     </div>
 
-    <div class="container" id="curiosities">
+    <div class="container-fluid" id="curiosities">
+      <h2 class="text-center">Datos curiosos</h2>
 
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Curiosidad 1
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li>En 2020, fue lanzada para <a href="https://store.steampowered.com/app/999020/Mega_Man_ZeroZX_Legacy_Collection/?l=spanish" target="_blank">Steam</a> una coleccion con los 4 juegos de la saga en su versión ingles y japonesa</li>
+                <li>La colección incluye además nuevas funcionalidades como un modo contrareloj o una galeria de imagenes y soundtracks</li>
+              </ul>
+              <img src="static/img/curiosidad1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Curiosidad 2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li>Megaman Zero hace parte del universo Megaman, que comprende otras sagas como Megaman, Megaman x o Megaman Battle Network</li>
+                <li>Zero es un personaje original de la saga Megaman x, en esta saga, Zero poseia un aspecto al diferente</li>
+              </ul>
+              <img src="static/img/curiosidad2.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Curiosidad 3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li>El primer juego posee diferencias en su version internacional y su version japonesa</li>
+                <li>En la version japonesa, al derrotar a un enemigo es posible ver gotas de gasolina, las cuales fueron censuradas debido a su similitud con la sangre</li>
+                <li>Tambien es posible ver estas diferencias en algunos escenarios</li>
+              </ul>
+              <img src="static/img/curiosidad3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFourth">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
+                Curiosidad 4
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li>La franquicia Megaman, en general, es tambien muy recordada por sus sountracks</li>
+                <li>La saga Zero no se queda atras, teniendo temas como <a href="https://www.youtube.com/watch?v=5UNTW8hFcpk" target="_blank">Falling Down</a>, <a href="https://www.youtube.com/watch?v=zyADNaIGBaI" target="_blank">CannonBall</a> y <a href="https://www.youtube.com/watch?v=EsQI7Q4X8Nc" target="_blank">Departure</a></li>
+              </ul>
+              <img src="static/img/curiosidad4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="container" id="contact">
-      <h2>Formulario</h2>
-      <div class="row">
+    <div class="container-fluid" id="contact">
+      <div class="row justify-content-center align-items-center">
           <div class="col-md-6">
-              <form>
+              <form id="miFormulario">
+                  <h2 class="text-center">Conoce más</h2>
                   <div class="form-group">
-                      <label for="campo2">Nombre:</label>
-                      <input type="text" class="form-control" id="campo2" placeholder="John Doe">
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="John Doe">
                   </div>
                   <div class="form-group">
-                      <label for="campo1">Correo:</label>
-                      <input type="email" class="form-control" id="campo1" placeholder="johndoe@example.com">
+                      <label for="correo">Correo:</label>
+                      <input type="email" class="form-control" id="correo" placeholder="johndoe@example.com">
                   </div>
-                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <div class="form-group text-center">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
               </form>
           </div>
       </div>
-    </div>
   </div>
+  
   <footer class="text-light text-center py-2">
-    <div class="container">
+    <div class="container-fluid">
         <p>&copy; 2023 Daniel Diaz</p>
-        <p>Mega Man es una marca registrada de Capcom. Este proyecto es realizado únicamente con fines educativos y no tiene fines de lucro.</p>
+        <p>Mega Man es una marca registrada de Capcom. Este proyecto es realizado únicamente con fines educativos.</p>
     </div>
 </footer>
 
