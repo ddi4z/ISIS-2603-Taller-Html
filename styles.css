@@ -18,11 +18,6 @@ h2 {
     font-weight: bold;
 }
 
-
-
-
-
-
 #main {
     background-image: url("static/img/main.png");
     background-size: 100% 100%;
@@ -106,8 +101,8 @@ h2 {
 }
 
 .carousel-image {
-    width: 100%; /* Establece el ancho al 100% para que las imágenes se ajusten al contenedor */
-    height: auto; /* Esto garantiza que las imágenes se escalen proporcionalmente */
+    width: 100%;
+    height: auto;
 }
 
 .carousel-caption {
