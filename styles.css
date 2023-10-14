@@ -6,6 +6,11 @@ h2 {
     font-weight: bold;
 }
 
+.row{
+    margin: 0;
+}
+
+
 .custom-navbar {
     background-color: #3900B2;
     position: fixed;
